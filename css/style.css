@@ -2,3 +2,57 @@
     margin:0;
     padding:0;
 }
+
+header{
+    background-color: red;
+    text-align: center;
+}
+
+body{
+    font-family: Meiryo, "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+header{
+    background-color: red;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 48px;
+}
+
+li{
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border: solid 1px #fff;
+    color: black;
+}
+
+main{
+    text-align: center;
+    font-size: 19px;
+    display: block;
+    background-color: #ffc0cb;
+}
+
+/* section{
+    unicode-bidi: isolate;
+} */
+
+.box{
+    display: inline-block;
+    width: 350px;
+    /* height: 400px; */
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px;
+}
+
+.img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
