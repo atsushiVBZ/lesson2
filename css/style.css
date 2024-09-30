@@ -33,7 +33,7 @@ li{
 
 main{
     text-align: center;
-    font-size: 19px;
+    /* font-size: 19px; */
     display: block;
     background-color: #ffc0cb;
 }
@@ -52,7 +52,10 @@ main{
     box-shadow: 4px 4px;
 }
 
-.img{
-    overflow-clip-margin: content-box;
-    overflow: clip;
+img{
+    height: 200px;
+}
+
+p{
+    font-size: 19.2px;
 }
